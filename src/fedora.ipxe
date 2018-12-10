@@ -23,6 +23,7 @@ menu ${os} ${arch} sku type
 item Everything ${ova} Everything
 item Server ${ova} Server
 item Workstation ${ova} Workstation
+item Silverblue ${ova} Silverblue
 item Atomic ${ova} Atomic
 isset ${sku_type} || choose sku_type || goto fedora
 set dir ${fedora_base_dir}/releases/${osversion}/${sku_type}/${arch}/os
